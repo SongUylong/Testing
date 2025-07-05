@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .background {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+
+        #first {
+            background-color: red;
+        }
+
+        #second {
+            background-color: blue;
+        }
+        .container2{
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="first" class="background">NavBar</div>
+        <div class="container2">
+            <div id="second" class="background"> Home</div>
+            <div class="background">Feature</div>
+            <div class="background">Services</div>
+            <div class="background">Our Work</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
